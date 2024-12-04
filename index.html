@@ -114,7 +114,7 @@
         <li>
           <img
             alt="slider"
-            src="img/slider/GIM4.jpg" />
+            src="img/slider/GIM5.jpg" />
           <!-- random image -->
           <div class="caption center-align">
             <h3>Generasi Islam</h3>
@@ -149,7 +149,7 @@
             <h5>Visi & Tujuan</h5>
 
             <h6>Membangkitkan pemikiran muslim</h6>
-            <h6>Menerapkan syari'at secara men yeluruh</h6>
+            <h6>Menerapkan syari'at secara menyeluruh</h6>
             <h6>Mencerdaskan anak bangsa</h6>
             <h6>Menguatkan ukhuwah islamiyah</h6>
           </div>
@@ -170,22 +170,61 @@
         <h3 class="center light white-text">Social Media</h3>
         <div class="row">
           <div class="col m4 s12 center">
-            <img
-              alt="Youtube"
-              src="img/sosmed/yt.png" />
-            <p>Youtube</p>
+            <a
+              href="https://www.youtube.com/channel/UCFjATkR1P0JLP3j3etqL6Rg"
+              target="_blank"
+              rel="noopener">
+              <img
+                alt="Youtube"
+                src="img/sosmed/yt.png" />
+            </a>
+            <p>
+              <a
+                href="https://www.youtube.com/channel/UCFjATkR1P0JLP3j3etqL6Rg"
+                target="_blank"
+                rel="noopener"
+                class="white-text"
+                >Youtube</a
+              >
+            </p>
           </div>
           <div class="col m4 s12 center">
-            <img
-              alt="Instagram"
-              src="img/sosmed/ig.png" />
-            <p>Instagram</p>
+            <a
+              href="https://www.instagram.com/gim.generasiislam"
+              target="_blank"
+              rel="noopener">
+              <img
+                alt="Instagram"
+                src="img/sosmed/ig.png" />
+            </a>
+            <p>
+              <a
+                href="https://www.instagram.com/gim.generasiislam"
+                target="_blank"
+                rel="noopener"
+                class="white-text"
+                >Instagram</a
+              >
+            </p>
           </div>
           <div class="col m4 s12 center">
-            <img
-              alt="WhatsApp"
-              src="img/sosmed/wa.png" />
-            <p>WhatsApp</p>
+            <a
+              href="https://wa.me/+6285840897464"
+              target="_blank"
+              rel="noopener">
+              <img
+                alt="WhatsApp"
+                src="img/sosmed/wa.png" />
+            </a>
+            <p>
+              <a
+                href="https://wa.me/+6285840897464"
+                target="_blank"
+                rel="noopener"
+                class="white-text"
+                >WhatsApp</a
+              >
+            </p>
           </div>
         </div>
       </div>
@@ -194,46 +233,134 @@
     <!-- Services -->
     <section
       id="services"
-      class="services grey lighten-3 scrollspy">
+      class="services grey lighten-3 scrollspy pointer">
       <div class="container">
         <div class="row">
           <h3 class="light center grey-text text-darken-3">Kegiatan Kami</h3>
-          <div class="col m4 s12">
-            <div class="card-panel center">
+          <div class="col m6 s12">
+            <div
+              class="card-panel center service-card"
+              data-service="1">
               <i class="material-icons medium">get_app</i>
-              <h5>Instalasi Pemahaman Islam</h5>
-              <p>
-                Melalui MAS (Majelis Agak Serius) yang di jadwalkan setiap pekan
-                sekali untuk menyempurnakan instalasi pemahaman islam secara
-                menyeluruh.
-              </p>
+              <h5>MAS</h5>
             </div>
           </div>
-          <div class="col m4 s12">
-            <div class="card-panel center">
+          <div class="col m6 s12">
+            <div
+              class="card-panel center service-card"
+              data-service="2">
               <i class="material-icons medium">import_contacts</i>
               <h5>Kajian Fiqih</h5>
-              <p>
-                Menyelaraskan pemahaman dengan perbuatan sehingga menciptakan
-                kepribadian muslim yang islam sempurna dengan mengetahui
-                hukum-hukum segala sesuatu.
-              </p>
             </div>
           </div>
-          <div class="col m4 s12">
-            <div class="card-panel center">
+          <div class="col m6 s12">
+            <div
+              class="card-panel center service-card"
+              data-service="3">
               <i class="material-icons medium">translate</i>
               <h5>Kajian Nahwu</h5>
-              <p>
-                Identiknya bahasa Arab dengan Islam membuat kami berfikir bahwa
-                hendaknya tiap pribadi muslim memiliki keahlian dalam bahasa
-                yang sangat erat hubungannya dengan Islam.
-              </p>
+            </div>
+          </div>
+          <div class="col m6 s12">
+            <div
+              class="card-panel center service-card"
+              data-service="4">
+              <i class="material-icons medium">favorite</i>
+              <h5>Nafsiyah</h5>
             </div>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- Modal for Service 1 -->
+    <div
+      id="serviceModal1"
+      class="modal">
+      <div class="modal-content">
+        <h4>Instalasi Pemahaman Islam</h4>
+        <p>
+          Melalui MAS (Majelis Agak Serius) yang di jadwalkan setiap pekan
+          sekali untuk menyempurnakan instalasi pemahaman islam secara
+          menyeluruh.
+        </p>
+        <h5>Di bimbing oleh para mentor (ustad) dari kami.</h5>
+      </div>
+      <div class="modal-footer">
+        <a
+          href="#!"
+          class="modal-close waves-effect waves-green btn-flat"
+          >Tutup</a
+        >
+      </div>
+    </div>
+
+    <!-- Modal for Service 2 -->
+    <div
+      id="serviceModal2"
+      class="modal">
+      <div class="modal-content">
+        <h4>Kajian Fiqih</h4>
+        <p>
+          Menyelaraskan pemahaman dengan perbuatan sehingga menciptakan
+          kepribadian muslim yang islam sempurna dengan mengetahui hukum-hukum
+          segala sesuatu.
+        </p>
+        <p>
+          - Fiqih syafi'i dengan kitab Ghoyah wat taqrib karya syekh Abu Syuja'
+        </p>
+      </div>
+      <div class="modal-footer">
+        <a
+          href="#!"
+          class="modal-close waves-effect waves-green btn-flat"
+          >Tutup</a
+        >
+      </div>
+    </div>
+
+    <!-- Modal for Service 3 -->
+    <div
+      id="serviceModal3"
+      class="modal">
+      <div class="modal-content">
+        <h4>Kajian Nahwu</h4>
+        <p>
+          Identiknya bahasa Arab dengan Islam membuat kami berfikir bahwa
+          hendaknya tiap pribadi muslim memiliki keahlian dalam bahasa yang
+          sangat erat hubungannya dengan Islam.
+        </p>
+        <p>- Metode QIS</p>
+      </div>
+      <div class="modal-footer">
+        <a
+          href="#!"
+          class="modal-close waves-effect waves-green btn-flat"
+          >Tutup</a
+        >
+      </div>
+    </div>
+
+    <!-- Modal for Service 4 -->
+    <div
+      id="serviceModal4"
+      class="modal">
+      <div class="modal-content">
+        <h4>Nafsiyah Islamiyah</h4>
+        <p>
+          Sebuah program atau kelas pembentuk pola sikap yang sesuai dengan
+          kemauan Allah mengikuti contoh dari Rasulullah.
+        </p>
+        <p>- Kitab Pilar-pilar Pengokoh Islamiyah</p>
+      </div>
+      <div class="modal-footer">
+        <a
+          href="#!"
+          class="modal-close waves-effect waves-green btn-flat"
+          >Tutup</a
+        >
+      </div>
+    </div>
 
     <!-- Portfolio -->
     <section
@@ -242,11 +369,11 @@
       <h3 class="light center grey-text text-darken-3">Testimoni</h3>
       <div class="container testimonial-container">
         <div class="row">
-          <div class="col s12 m6 l4">
+          <div class="col s12 m6">
             <div class="card testimonial-card">
               <img
                 src="img/testimoni/testi1.jpg"
-                alt="Irfan Hakim" />
+                alt="Dika" />
               <div class="testimonial-title">Mas Dika</div>
               <div class="testimonial-quote">
                 "Kajian luar biasa yang menanamkan pemahaman Islam secara
@@ -254,11 +381,11 @@
               </div>
             </div>
           </div>
-          <div class="col s12 m6 l4">
+          <div class="col s12 m6">
             <div class="card testimonial-card">
               <img
                 src="img/testimoni/testi2.webp"
-                alt="Dude Herlino" />
+                alt="Jabar" />
               <div class="testimonial-title">Mas Hong</div>
               <div class="testimonial-quote">
                 "Kajian anti mainstream di tengah umat yang kacau balau dan
@@ -266,23 +393,23 @@
               </div>
             </div>
           </div>
-          <div class="col s12 m6 l4">
+          <div class="col s12 m6">
             <div class="card testimonial-card">
               <img
                 src="img/testimoni/testi3.jpg"
-                alt="Teuku Wisnu" />
+                alt="Yap" />
               <div class="testimonial-title">Ersan Yap</div>
               <div class="testimonial-quote">
-                "Kalo bisa kajian yang kaya gini bukan cuma ada di unit 2 dan
-                sekitarnya tapi seluruh dunia."
+                "Kalo bisa kajian yang kaya GIM (Generasi Islam) gini bukan cuma
+                ada di unit 2 dan sekitarnya tapi seluruh dunia."
               </div>
             </div>
           </div>
-          <div class="col s12 m6 l4">
+          <div class="col s12 m6">
             <div class="card testimonial-card">
               <img
                 src="img/testimoni/testi4.jpg"
-                alt="Teuku Wisnu" />
+                alt="Nanda" />
               <div class="testimonial-title">Mas Nanda</div>
               <div class="testimonial-quote">
                 "Komunitas yang impactnya luar biasa untuk kehidupan. Ditempa
@@ -291,27 +418,31 @@
               </div>
             </div>
           </div>
-          <div class="col s12 m6 l4">
+          <div class="col s12 m6">
             <div class="card testimonial-card">
               <img
                 src="img/testimoni/testi5.jpg"
-                alt="Teuku Wisnu" />
+                alt="Wantoro" />
               <div class="testimonial-title">Mas Wantoro</div>
               <div class="testimonial-quote">
-                "Teman-teman yang ingin fasih berbahasa Arab bisa belajar online
-                dan diajari dari nol."
+                “Kajian yang paham seluruh problem anak muda di tengah zaman
+                yang makin edan ini yang selalu mengedepankan syari’at, dan
+                fokus apa yang menjadi tujuan untuk jangka panjang
+                sekali (afterlife)”
               </div>
             </div>
           </div>
-          <div class="col s12 m6 l4">
+          <div class="col s12 m6">
             <div class="card testimonial-card">
               <img
-                src="https://via.placeholder.com/100"
-                alt="Teuku Wisnu" />
-              <div class="testimonial-title">Teuku Wisnu</div>
+                src="img/testimoni/testi5.jpg"
+                alt="Wantoro" />
+              <div class="testimonial-title">Mas Wantoro</div>
               <div class="testimonial-quote">
-                "Teman-teman yang ingin fasih berbahasa Arab bisa belajar online
-                dan diajari dari nol."
+                “Kajian yang paham seluruh problem anak muda di tengah zaman
+                yang makin edan ini yang selalu mengedepankan syari’at, dan
+                fokus apa yang menjadi tujuan untuk jangka panjang
+                sekali (afterlife)”
               </div>
             </div>
           </div>
@@ -390,73 +521,12 @@
     <!-- Artikel -->
     <section
       id="articles"
-      class="section articles lighten-3 scrollspy">
+      class="articles-section">
       <div class="container">
-        <h3 class="light grey-text text-darken-3 center">Artikel Terbaru</h3>
-        <div class="row">
-          <!-- Article 1 -->
-          <div class="col s12 m6">
-            <div class="card article-card">
-              <div class="card-image">
-                <img
-                  src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioUR8I83AFD4SQ9Jczull0HYkNLPbjiyqqibStzyWHvN-G40k-ib1ekW9rqNWrFZJBTpC9KXVKR8v1f5d0zRx3OdgTMZGY0a68CLOoEllAdv_00HTdK4WTYy_qNM6VD2ifv1IQ0A1ysqziNl5d_X2ICAJ7TldLaQK5QhYoukk3ZSfv3EK3AudwHxj6V1nW/s640/william-white-TZCppMjaOHU-unsplash.jpg"
-                  alt="Artikel 1" />
-              </div>
-              <div class="card-content">
-                <span class="card-title"
-                  >Opini: Inspirasi Anak Muda Dari Drakor dan K-Pop? Pikir-pikir
-                  Lagi Deh!</span
-                >
-                <p>
-                  Bro and sis, tren drakor (drama Korea) dan K-Pop (kultur
-                  populer korea) ternyata tidak hanya menjangkit generasi remaja
-                  negeri +62 ini, bahkan para Penguasa ikut-ikutan
-                  mengapresiasi. Dilansir dari detik.com, Wapres RI Ma’ruf Amin
-                  berbicara di acara Peringatan 100 Tahun Kedatangan Warga Korea
-                  di Indonesia...
-                </p>
-              </div>
-              <div class="card-action">
-                <a
-                  href="https://gim-generasiislam.blogspot.com/2024/10/opini-inspirasi-anak-muda-dari-drakor.html#"
-                  target="_blank"
-                  >Baca Selengkapnya</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <!-- Article 2 -->
-          <div class="col s12 m6">
-            <div class="card article-card">
-              <div class="card-image">
-                <img
-                  src="https://via.placeholder.com/400x200"
-                  alt="Artikel 2" />
-              </div>
-              <div class="card-content">
-                <span class="card-title">Judul Artikel 2</span>
-                <p>Deskripsi singkat artikel tentang topik yang dibahas...</p>
-              </div>
-              <div class="card-action">
-                <a
-                  href="https://gim-generasiislam.blogspot.com/2024/10/artikel2.html"
-                  target="_blank"
-                  >Baca Selengkapnya</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-        <h5 class="center">Kami memiliki banyak artikel</h5>
-        <h5 class="center">
-          Untuk selengkapnya kunjungi laman artikel kami
-          <a
-            href="https://gim-generasiislam.blogspot.com"
-            target="_blank"
-            >di sini!</a
-          >
-        </h5>
+        <h3 class="center grey-text text-darken-3">Artikel</h3>
+        <div
+          class="row"
+          id="articles-container"></div>
       </div>
     </section>
 
@@ -485,9 +555,8 @@
               <li class="collection-item">Sumatera, Indonesia</li>
             </ul>
           </div>
-
           <div class="col m7 s12">
-            <form>
+            <form id="contactForm">
               <div class="card-panel">
                 <h5>Mohon isi pada label yang tertera</h5>
                 <div class="input-field">
@@ -539,6 +608,8 @@
     </footer>
 
     <!--JavaScript at end of body for optimized loading-->
+    <script src="script.js"></script>
+
     <script
       type="text/javascript"
       src="js/materialize.min.js"></script>

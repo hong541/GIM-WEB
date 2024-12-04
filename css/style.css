@@ -16,17 +16,17 @@
   opacity: 0.5 !important;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 .clients img {
   max-width: 150px;
   filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.8));
 }
 
-.testimonial-container {
-  background-color: #2f4f4f;
-  padding: 30px;
-}
 .testimonial-card {
-  background-color: #ffffff;
+  background-color: #424242;
   border-radius: 10px;
   padding: 20px;
   text-align: center;
